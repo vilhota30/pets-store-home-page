@@ -1,0 +1,444 @@
+.container {
+    max-width: 1980px;
+    width: 1180px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.info-about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(220, 211, 211);
+}
+.info-about-us-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.info-about-us-item {
+    color: black;
+    padding: 6px;
+}
+
+.info-about-us-item:hover,
+.info-about-us-item:focus{
+    color:orange;
+    border: 2px solid orangered;
+}
+
+.link {
+    text-decoration: none;
+}
+.goods {
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+.goods-info {
+    color: black;
+    font-weight: 700;
+    padding: 8px;
+}
+.goods-info:hover,
+.goods-info:focus{
+    color: orange;
+    border: 2px solid orangered;
+}
+
+.info-find-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(229, 225, 225);
+    border-bottom: 2px solid gainsboro;
+}
+.logo-icon {
+    color: orange;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.button {
+    color: white;
+    background-color: rgb(46, 46, 223);
+    border: 2px solid darkblue;
+}
+.button:hover,
+.button:focus{
+    background-color: rgb(190, 126, 7);
+    border: 2px solid darkgoldenrod;
+}
+.filter {
+    width: 450px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.info-contact {
+    display: block;
+    line-height: 0;
+}
+.number {
+    text-decoration: underline;
+    color:rgb(54, 51, 51);
+}
+.navigation {
+    background-color: rgb(229, 225, 225);
+    border-bottom: 2px solid gainsboro;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.nav-item-title {
+    color: black;
+    font-weight: 800;
+    padding: 6px;
+}
+.nav-item-title:hover,
+.nav-item-title:focus{
+ color: orange;
+ border: 2px solid orangered;
+}
+
+/* .hero-section {
+    padding-left: 40px;
+    padding-right: 40px;
+} */
+.hero-img {
+    display: flex;
+    width: 1180px;
+    height: 368px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-photo {
+    width: 100%;
+}
+.hero-info-container {
+position: absolute;
+width: 300px;
+left: 90px;
+margin-bottom: 20px;
+}
+.hero-title {
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+}
+.hero-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.hero-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 14px;
+    background-color: orange;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: orange;
+    background-color: #1071b1;
+}
+.popular-products {
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 6px;
+}
+
+.product-title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+ .product-item {
+    border: 1px solid black;
+    width: 360px;
+    height: 448px;
+    padding: 12px;
+}
+.product-item:hover,
+.product-item:focus {
+    transform: scale(1);
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+    border: 3px solid rgb(175, 117, 8);
+}
+
+.mark {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    background-color: green;
+    border-right: 30px;
+}
+.mark-text {
+    padding: 8px;
+    color: white;
+}
+.mark-product {
+    position: relative;
+}
+.product-img {
+    display: flex;
+    justify-content: center;
+}
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-btn {
+    width: 113px;
+    height: 39px;
+    color: orange;
+    background-color: white;
+    padding: 8px;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+.product-btn:hover,
+.product-btn:focus{
+    color:white;
+    background-color: orange;
+    
+}
+.price-group {
+    line-height: 0;
+}
+
+.previous-price {
+    color: black;
+    text-decoration: line-through;
+}
+ .product-price {
+    padding: 8px;
+}
+
+.discount {
+    color: red;
+}
+
+.load-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 59px;
+    color: orange;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+.load-more-btn:hover,
+.load-more-btn:focus {
+    color:white;
+    background-color: orange;
+}
+
+.mobile-app-container {
+    display: flex;
+    background-color: #FF7D01;
+}
+
+.mobile-application-info-group {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.mobile-application-title {
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+}
+.mobile-application-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.categories-title-h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+.categories-list {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    list-style: none;
+
+}
+.categories-item {
+   border-radius: 30px;
+}
+.categories-item:hover,
+.categories-item:focus {
+    transform: scale(1.10);
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+    /* border: 3px solid rgb(175, 117, 8); */
+}
+.categories-img {
+    border-radius: 20px;
+}
+
+.our-brands-title {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+}
+.brands-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    list-style: none;
+}
+.brands-item:hover,
+.brands-item:focus{
+    transform: scale(1.10);
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
+    border: 3px solid rgb(175, 117, 8);
+}
+
+.brands-img-thumb {
+    padding: 20px;
+    border: 2px solid rgb(185, 175, 175);
+    background-color: rgb(200, 199, 199);
+}
+.news-subscription-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7BC8FC;
+}
+.news-subscription-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.info-post-container {
+    display: flex;
+}
+.post-info {
+    width: 380px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+.btn-post-sub {
+    width: 100px;
+    color: white;
+    background-color: #FF7D01;
+    border-radius: 8px;
+    padding: 8px;
+}
+.footer-container {
+    padding: 20px;
+}
+.nav-group-container {
+    border-bottom: 2px solid rgb(175, 168, 168);
+}
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(196, 187, 187);
+}
+.payment-social-group {
+    display: flex;
+    align-items: center;
+}
+.payment-link:not(:last-child) {
+    margin-right: 10px;
+}
+.social-list {
+    display: flex;
+    list-style: none;
+}
+.social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 55%;
+    margin-right: 5px;
+}
+
+.social-item:hover,
+.social-item:focus {
+    background-color: #361ddb;
+}
+.social-icon .icon-color:hover,
+.social-icon .icon-color:focus {
+    fill: #7BC8FC;
+}
+.payment {
+    display: flex;
+}
+.contacts {
+    line-height: 1;
+}
+.mrg-bot-12 {
+   margin-bottom: 12px;
+}
+.line-normalize {
+    line-height: 1;
+    list-style: none;
+    font-size: 20px;
+}
+.bold-font-weight {
+    font-weight: 800;
+}
+.categories-container {
+    display: flex;
+    justify-content: space-between;
+}
+.common-property{
+    list-style: none;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.link-normalization {
+    text-decoration: none;
+    color: black;
+    line-height: 1;
+}
+.link-normalization:hover {
+    color: orange;
+}
+.main-footer-title {
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
